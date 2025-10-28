@@ -1,6 +1,6 @@
 # arXiv Trend Research
 
-이 프로젝트는 Cornell University와 파트너들이 Kaggle에 공개한 **arXiv 학술 메타데이터**(1.7M+ STEM 논문 메타 정보)를 활용하여, 학문 분야별 업로드 트렌드를 분석하고 시각화/리포팅하는 파이프라인입니다. 원본 데이터는 물리·수학·컴퓨터과학·통계·전자공학·정량생물학·경제학 등 STEM 전반을 포괄하며, 30년 가까이 축적된 논문 메타데이터(제목, 저자, 카테고리, 초록, 버전 이력 등)를 포함합니다. `project/data/arxiv-metadata-oai-snapshot.json`만 준비하면 전체 파이프라인을 즉시 실행할 수 있습니다.
+이 프로젝트는 Cornell University와 파트너들이 Kaggle에 공개한 **arXiv 학술 메타데이터**(1.7M+ STEM 논문 메타 정보)를 입력으로 받아, 월별 업로드 추세·카테고리별 성장률·변동성 지표를 자동 계산하고 **한 장짜리 인사이트 리포트**까지 생성하는 엔드투엔드 파이프라인입니다. JSON 스냅샷(`project/data/arxiv-metadata-oai-snapshot.json`)만 준비하면 스트리밍 집계 → 통계 분석 → 시각화 → PDF/텍스트 보고서가 한 번에 만들어집니다.
 
 ## Dataset
 
@@ -22,11 +22,36 @@
    - `--prefix cs.` 등으로 카테고리 prefix 필터를 적용할 수 있고, `--since 2015-01`처럼 특정 시점 이후만 집계할 수 있습니다.
 
 2. **시각화 및 통계 요약 (`scripts/02_make_figures.py`)**  
-   - 월별 업로드 추세 + 6/12개월 이동평균, 카테고리 성장률, 점유율, 변동성, 성장률 vs 규모 스캐터, 상위 카테고리 히트맵 등을 생성합니다.  
-   - 다섯 가지 이상의 시각화를 `figures/01_monthly_total.png` ~ `figures/06_volatility.png`에 저장하고, 최근 12개월 피벗(`data/arxiv_last12_pivot.csv`), 카테고리 통계(`data/arxiv_category_stats.csv`), 전체 요약 JSON(`data/arxiv_summary.json`), 텍스트 리포트(`reports/trend_summary.txt`)를 함께 출력합니다.
+   - 월별 업로드 추세(6/12개월 이동평균 포함), 카테고리 성장률, 업로드 볼륨, 변동성, 성장률 vs 규모 산점도, 최근 24개월 히트맵을 PNG로 생성합니다.  
+   - 동시에 `data/arxiv_category_stats.csv`, `data/arxiv_summary.json`, `reports/trend_summary.txt`를 만들어 리포트에 필요한 수치를 즉시 활용할 수 있습니다.
 
 3. **PDF 요약 (`scripts/03_export_onepager.py`)**  
-   - 영어로 구성된 핵심 하이라이트, 통계 섹션, 다중 그래프를 한 장에 배치한 `report_onepager.pdf`를 생성합니다.
+   - 영어 하이라이트, Key Metrics 패널, 상·하위 카테고리 섹션과 6개 그래프를 A4 가로 한 장에 배치한 `report_onepager.pdf`를 자동 작성합니다.
+
+## Automated Report Output
+
+`python scripts/02_make_figures.py` → `python scripts/03_export_onepager.py` 실행만으로 다음 콘텐츠가 채워진 보고서를 얻을 수 있습니다.
+
+- **Highlights**: 최신 월, 12개월 업로드, YoY 증감, 이동평균, 추세 기울기, 5년 CAGR, 시즌 피크/저점을 자동 계산해 bullet으로 정리합니다. 예) `Latest month: 2025-10`, `YoY change: +12.65% (+30,269)`.
+- **Key Metrics 패널**: 12M 업로드, 이동평균(6/12M), 시즌 피크/저점, 추세 기울기(증감률), 5Y CAGR 등을 카드 형태로 제공합니다.
+- **카테고리 랭킹**: 성장률 Top, 볼륨 Top, 감소 카테고리, 변동성 Top을 텍스트로 나열해 그래프와 함께 비교할 수 있습니다.
+- **시각화 6종**: 월별 추세(롤링 평균 포함), 성장률 Top-N, 볼륨 Top-N, 24개월 카테고리 히트맵, 성장률 vs 규모 산점도, 변동성 Top 그래프를 한 페이지에 배치합니다.
+- **데이터 푸터**: Kaggle `arXiv Dataset` 출처, 메타데이터 범위(제목·저자·초록·카테고리·버전), CC0 라이선스를 명시하여 바로 외부 공유가 가능합니다.
+
+PDF 예시 헤드라인:
+
+```
+arXiv Research Trend Summary (Last 12 Months)
+• Latest month: 2025-10
+• 12M uploads vs prior: 269,608 vs 239,339
+• YoY change: +12.65% (+30,269)
+• Rolling avg (6/12M): 23,582 / 22,467
+• Trend slope: +235.4 papers/mo (+1.19%)
+• 5Y CAGR: +9.10%
+• Seasonality: peak Oct · low Jan
+```
+
+보고서는 위와 같은 하이라이트와 함께 카테고리별 랭킹, 6종 그래프, 데이터 출처가 한 장에 정리되어 면접/지원서 자료, 리서치 브리핑, 투자 리서치 등 데이터 기반 문서 작업에 즉시 활용할 수 있습니다.
 
 ## Quick Start
 
