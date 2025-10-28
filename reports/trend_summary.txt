@@ -1,0 +1,55 @@
+ArXiv Trend Summary
+===================
+Latest month: 2025-10
+12-month uploads: 269,608
+Prior 12-month uploads: 239,339
+Year-over-year growth: +12.65%
+Absolute change (YoY): +30,269
+Rolling 6-month avg: 23,582.3
+Rolling 12-month avg: 22,467.3
+Trend slope (last 36 months): +235.36 papers/month
+Trend slope (% of mean): +1.19%
+5-year CAGR: +9.10%
+Seasonal peak month: Oct
+Seasonal low month: Jan
+Seasonality strength: 5.98%
+
+Top Growth Categories
+---------------------
+ - cs.GR | YoY +135.2% | Δ +553 | share 0.4%
+ - stat.OT | YoY +81.0% | Δ +34 | share 0.0%
+ - cs.PF | YoY +77.1% | Δ +74 | share 0.1%
+ - cs.OS | YoY +73.7% | Δ +42 | share 0.0%
+ - cond-mat.other | YoY +67.5% | Δ +54 | share 0.0%
+
+Top Declining Categories
+------------------------
+ - cs.GL | YoY -71.4% | Δ -5 | share 0.0%
+ - nlin.CG | YoY -31.6% | Δ -12 | share 0.0%
+ - physics.app-ph | YoY -28.3% | Δ -335 | share 0.3%
+ - physics.pop-ph | YoY -26.3% | Δ -15 | share 0.0%
+ - cs.MS | YoY -23.8% | Δ -19 | share 0.0%
+
+Largest Categories (by volume)
+------------------------------
+ - cs.CV | YoY +15.4% | Δ +3,555 | share 9.9%
+ - cs.LG | YoY +23.8% | Δ +4,661 | share 9.0%
+ - cs.CL | YoY +13.5% | Δ +1,983 | share 6.2%
+ - quant-ph | YoY +15.0% | Δ +1,463 | share 4.2%
+ - cs.RO | YoY +17.4% | Δ +1,136 | share 2.8%
+
+Strongest Momentum (slope)
+--------------------------
+ - cs.LG | YoY +23.8% | Δ +4,661 | share 9.0%
+ - cs.AI | YoY +62.4% | Δ +2,898 | share 2.8%
+ - cs.CV | YoY +15.4% | Δ +3,555 | share 9.9%
+ - cs.CL | YoY +13.5% | Δ +1,983 | share 6.2%
+ - cs.RO | YoY +17.4% | Δ +1,136 | share 2.8%
+
+Most Volatile Categories
+------------------------
+ - cs.SY | YoY +0.0% | Δ +1 | share 0.0%
+ - cs.GL | YoY -71.4% | Δ -5 | share 0.0%
+ - q-bio.SC | YoY +5.0% | Δ +1 | share 0.0%
+ - physics.pop-ph | YoY -26.3% | Δ -15 | share 0.0%
+ - physics.atm-clus | YoY +2.9% | Δ +1 | share 0.0%

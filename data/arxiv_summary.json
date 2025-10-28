@@ -1,0 +1,327 @@
+{
+  "latest_month": "2025-10",
+  "total_last12": 269608.0,
+  "total_prev12": 239339.0,
+  "total_yoy_pct": 12.646915045186951,
+  "total_yoy_change": 30269.0,
+  "rolling6_avg": 23582.333333333332,
+  "rolling12_avg": 22467.333333333332,
+  "trend_slope": 235.360746460747,
+  "trend_slope_pct": 1.1880522772678108,
+  "cagr_5yr": 0.09098013140070105,
+  "seasonality": {
+    "seasonality_strength": 0.05976581764144074,
+    "strongest_month": 10,
+    "weakest_month": 1
+  },
+  "top_growth": [
+    {
+      "main_cat": "cs.GR",
+      "last12_total": 962,
+      "prev12_total": 409,
+      "yoy_pct": 135.2078239608802,
+      "absolute_change": 553,
+      "last12_share_pct": 0.35681433785347616,
+      "last12_avg_per_month": 80.16666666666667,
+      "last12_volatility": 39.240356210864796,
+      "momentum_slope": 3.784782608695651,
+      "volatility_index": 0.4894846928590203
+    },
+    {
+      "main_cat": "stat.OT",
+      "last12_total": 76,
+      "prev12_total": 42,
+      "yoy_pct": 80.95238095238095,
+      "absolute_change": 34,
+      "last12_share_pct": 0.028189074508174834,
+      "last12_avg_per_month": 6.333333333333333,
+      "last12_volatility": 2.6874192494328497,
+      "momentum_slope": 0.21391304347826082,
+      "volatility_index": 0.42432935517360787
+    },
+    {
+      "main_cat": "cs.PF",
+      "last12_total": 170,
+      "prev12_total": 96,
+      "yoy_pct": 77.08333333333334,
+      "absolute_change": 74,
+      "last12_share_pct": 0.0630545087682858,
+      "last12_avg_per_month": 14.166666666666666,
+      "last12_volatility": 4.487637339278753,
+      "momentum_slope": 0.4504347826086957,
+      "volatility_index": 0.3167744004196767
+    },
+    {
+      "main_cat": "cs.OS",
+      "last12_total": 99,
+      "prev12_total": 57,
+      "yoy_pct": 73.68421052631578,
+      "absolute_change": 42,
+      "last12_share_pct": 0.03671997863564879,
+      "last12_avg_per_month": 8.25,
+      "last12_volatility": 2.8613807855648994,
+      "momentum_slope": 0.2547826086956522,
+      "volatility_index": 0.3468340346139272
+    },
+    {
+      "main_cat": "cond-mat.other",
+      "last12_total": 134,
+      "prev12_total": 80,
+      "yoy_pct": 67.5,
+      "absolute_change": 54,
+      "last12_share_pct": 0.049701789264413515,
+      "last12_avg_per_month": 11.166666666666666,
+      "last12_volatility": 3.737943582000967,
+      "momentum_slope": 0.39565217391304347,
+      "volatility_index": 0.3347412162985941
+    }
+  ],
+  "top_decline": [
+    {
+      "main_cat": "cs.GL",
+      "last12_total": 2,
+      "prev12_total": 7,
+      "yoy_pct": -71.42857142857143,
+      "absolute_change": -5,
+      "last12_share_pct": 0.0007418177502151271,
+      "last12_avg_per_month": 0.16666666666666666,
+      "last12_volatility": 0.3726779962499649,
+      "momentum_slope": -0.04130434782608691,
+      "volatility_index": 2.2360679774997894
+    },
+    {
+      "main_cat": "nlin.CG",
+      "last12_total": 26,
+      "prev12_total": 38,
+      "yoy_pct": -31.57894736842105,
+      "absolute_change": -12,
+      "last12_share_pct": 0.009643630752796653,
+      "last12_avg_per_month": 2.1666666666666665,
+      "last12_volatility": 1.4624940645653535,
+      "momentum_slope": -0.040869565217391296,
+      "volatility_index": 0.6749972605686247
+    },
+    {
+      "main_cat": "physics.app-ph",
+      "last12_total": 849,
+      "prev12_total": 1184,
+      "yoy_pct": -28.29391891891892,
+      "absolute_change": -335,
+      "last12_share_pct": 0.31490163496632145,
+      "last12_avg_per_month": 70.75,
+      "last12_volatility": 8.936115860185938,
+      "momentum_slope": -2.007391304347823,
+      "volatility_index": 0.1263055245255963
+    },
+    {
+      "main_cat": "physics.pop-ph",
+      "last12_total": 42,
+      "prev12_total": 57,
+      "yoy_pct": -26.31578947368421,
+      "absolute_change": -15,
+      "last12_share_pct": 0.015578172754517672,
+      "last12_avg_per_month": 3.5,
+      "last12_volatility": 2.753785273643051,
+      "momentum_slope": -0.1299999999999998,
+      "volatility_index": 0.7867957924694432
+    },
+    {
+      "main_cat": "cs.MS",
+      "last12_total": 61,
+      "prev12_total": 80,
+      "yoy_pct": -23.75,
+      "absolute_change": -19,
+      "last12_share_pct": 0.02262544138156138,
+      "last12_avg_per_month": 5.083333333333333,
+      "last12_volatility": 1.320248293146238,
+      "momentum_slope": -0.07608695652173891,
+      "volatility_index": 0.2597209757008993
+    }
+  ],
+  "top_volume": [
+    {
+      "main_cat": "cs.CV",
+      "last12_total": 26629,
+      "prev12_total": 23074,
+      "yoy_pct": 15.40695154719598,
+      "absolute_change": 3555,
+      "last12_share_pct": 9.876932435239311,
+      "last12_avg_per_month": 2219.0833333333335,
+      "last12_volatility": 412.0466111039165,
+      "momentum_slope": 22.330869565217455,
+      "volatility_index": 0.1856832525910473
+    },
+    {
+      "main_cat": "cs.LG",
+      "last12_total": 24204,
+      "prev12_total": 19543,
+      "yoy_pct": 23.84997185693087,
+      "absolute_change": 4661,
+      "last12_share_pct": 8.97747841310347,
+      "last12_avg_per_month": 2017.0,
+      "last12_volatility": 392.8876005509294,
+      "momentum_slope": 36.32217391304347,
+      "volatility_index": 0.19478810141345038
+    },
+    {
+      "main_cat": "cs.CL",
+      "last12_total": 16711,
+      "prev12_total": 14728,
+      "yoy_pct": 13.464149918522542,
+      "absolute_change": 1983,
+      "last12_share_pct": 6.198258211922495,
+      "last12_avg_per_month": 1392.5833333333333,
+      "last12_volatility": 347.0889555366975,
+      "momentum_slope": 19.824782608695678,
+      "volatility_index": 0.2492410667488702
+    },
+    {
+      "main_cat": "quant-ph",
+      "last12_total": 11205,
+      "prev12_total": 9742,
+      "yoy_pct": 15.017450215561487,
+      "absolute_change": 1463,
+      "last12_share_pct": 4.15603394558025,
+      "last12_avg_per_month": 933.75,
+      "last12_volatility": 88.29602199419858,
+      "momentum_slope": 11.378695652173926,
+      "volatility_index": 0.0945606661249784
+    },
+    {
+      "main_cat": "cs.RO",
+      "last12_total": 7651,
+      "prev12_total": 6515,
+      "yoy_pct": 17.436684574059864,
+      "absolute_change": 1136,
+      "last12_share_pct": 2.837823803447969,
+      "last12_avg_per_month": 637.5833333333334,
+      "last12_volatility": 154.45466343090956,
+      "momentum_slope": 12.20695652173913,
+      "volatility_index": 0.24225015830230226
+    }
+  ],
+  "top_momentum": [
+    {
+      "main_cat": "cs.LG",
+      "last12_total": 24204,
+      "prev12_total": 19543,
+      "yoy_pct": 23.84997185693087,
+      "absolute_change": 4661,
+      "last12_share_pct": 8.97747841310347,
+      "last12_avg_per_month": 2017.0,
+      "last12_volatility": 392.8876005509294,
+      "momentum_slope": 36.32217391304347,
+      "volatility_index": 0.19478810141345038
+    },
+    {
+      "main_cat": "cs.AI",
+      "last12_total": 7541,
+      "prev12_total": 4643,
+      "yoy_pct": 62.41654102950679,
+      "absolute_change": 2898,
+      "last12_share_pct": 2.7970238271861367,
+      "last12_avg_per_month": 628.4166666666666,
+      "last12_volatility": 188.20842096522202,
+      "momentum_slope": 23.066956521739133,
+      "volatility_index": 0.29949622750068483
+    },
+    {
+      "main_cat": "cs.CV",
+      "last12_total": 26629,
+      "prev12_total": 23074,
+      "yoy_pct": 15.40695154719598,
+      "absolute_change": 3555,
+      "last12_share_pct": 9.876932435239311,
+      "last12_avg_per_month": 2219.0833333333335,
+      "last12_volatility": 412.0466111039165,
+      "momentum_slope": 22.330869565217455,
+      "volatility_index": 0.1856832525910473
+    },
+    {
+      "main_cat": "cs.CL",
+      "last12_total": 16711,
+      "prev12_total": 14728,
+      "yoy_pct": 13.464149918522542,
+      "absolute_change": 1983,
+      "last12_share_pct": 6.198258211922495,
+      "last12_avg_per_month": 1392.5833333333333,
+      "last12_volatility": 347.0889555366975,
+      "momentum_slope": 19.824782608695678,
+      "volatility_index": 0.2492410667488702
+    },
+    {
+      "main_cat": "cs.RO",
+      "last12_total": 7651,
+      "prev12_total": 6515,
+      "yoy_pct": 17.436684574059864,
+      "absolute_change": 1136,
+      "last12_share_pct": 2.837823803447969,
+      "last12_avg_per_month": 637.5833333333334,
+      "last12_volatility": 154.45466343090956,
+      "momentum_slope": 12.20695652173913,
+      "volatility_index": 0.24225015830230226
+    }
+  ],
+  "most_volatile": [
+    {
+      "main_cat": "cs.SY",
+      "last12_total": 1,
+      "prev12_total": 0,
+      "yoy_pct": 0.0,
+      "absolute_change": 1,
+      "last12_share_pct": 0.00037090887510756354,
+      "last12_avg_per_month": 0.08333333333333333,
+      "last12_volatility": 0.2763853991962833,
+      "momentum_slope": 0.00217391304347826,
+      "volatility_index": 3.3166247903554
+    },
+    {
+      "main_cat": "cs.GL",
+      "last12_total": 2,
+      "prev12_total": 7,
+      "yoy_pct": -71.42857142857143,
+      "absolute_change": -5,
+      "last12_share_pct": 0.0007418177502151271,
+      "last12_avg_per_month": 0.16666666666666666,
+      "last12_volatility": 0.3726779962499649,
+      "momentum_slope": -0.04130434782608691,
+      "volatility_index": 2.2360679774997894
+    },
+    {
+      "main_cat": "q-bio.SC",
+      "last12_total": 21,
+      "prev12_total": 20,
+      "yoy_pct": 5.0,
+      "absolute_change": 1,
+      "last12_share_pct": 0.007789086377258836,
+      "last12_avg_per_month": 1.75,
+      "last12_volatility": 1.5343293866268306,
+      "momentum_slope": 0.0047826086956522275,
+      "volatility_index": 0.876759649501046
+    },
+    {
+      "main_cat": "physics.pop-ph",
+      "last12_total": 42,
+      "prev12_total": 57,
+      "yoy_pct": -26.31578947368421,
+      "absolute_change": -15,
+      "last12_share_pct": 0.015578172754517672,
+      "last12_avg_per_month": 3.5,
+      "last12_volatility": 2.753785273643051,
+      "momentum_slope": -0.1299999999999998,
+      "volatility_index": 0.7867957924694432
+    },
+    {
+      "main_cat": "physics.atm-clus",
+      "last12_total": 36,
+      "prev12_total": 35,
+      "yoy_pct": 2.857142857142857,
+      "absolute_change": 1,
+      "last12_share_pct": 0.01335271950387229,
+      "last12_avg_per_month": 3.0,
+      "last12_volatility": 2.160246899469287,
+      "momentum_slope": 0.00826086956521743,
+      "volatility_index": 0.7200822998230957
+    }
+  ]
+}
