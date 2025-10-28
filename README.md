@@ -1,4 +1,4 @@
-# arXiv Trend Research
+# arXiv Trend Research 논문 트렌드 분석 파이프라인
 
 이 프로젝트는 Cornell University와 파트너들이 Kaggle에 공개한 **arXiv 학술 메타데이터**(1.7M+ STEM 논문 메타 정보)를 입력으로 받아, 월별 업로드 추세·카테고리별 성장률·변동성 지표를 자동 계산하고 **한 장짜리 인사이트 리포트**까지 생성하는 엔드투엔드 파이프라인입니다. JSON 스냅샷(`project/data/arxiv-metadata-oai-snapshot.json`)만 준비하면 스트리밍 집계 → 통계 분석 → 시각화 → PDF/텍스트 보고서가 한 번에 만들어집니다.
 
